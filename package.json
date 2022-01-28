@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "start": "node backend/server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
   },
   "author": "",
   "license": "ISC",
@@ -22,5 +24,8 @@
     "semantic-ui-react": "^2.0.4",
     "solc": "^0.4.17",
     "web3": "^1.6.1"
+  },
+  "engines": {
+    "node": "14.12.0"
   }
 }
