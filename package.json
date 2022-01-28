@@ -24,6 +24,7 @@
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.4",
     "solc": "^0.4.17",
+    "vue-fusioncharts": "^3.2.0",
     "web3": "^1.6.1"
   },
   "engines": {
